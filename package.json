@@ -1,0 +1,12 @@
+{
+  "name": "healthtech-chat-rooms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/healthtech_chat.ts",
+    "test": "tsx src/healthtech_chat.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.10.1", "tsx": "^4.19.2", "typescript": "^5.6.3" }
+}
